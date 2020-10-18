@@ -42,7 +42,7 @@
         cortDraw.setAttributeNS(null, "y", 0);
         cortDraw.setAttributeNS(null, "width", cort.width);
         cortDraw.setAttributeNS(null, "height", cort.height);
-        cortDraw.setAttributeNS(null, "fill", "#a2e8a2");
+        cortDraw.setAttributeNS(null, "fill", "#a2e8e2");
         
         svg.append(cortDraw);
       };
@@ -56,7 +56,7 @@
         rocketLeft.setAttributeNS(null, "y", rockets.posLeftY);
         rocketLeft.setAttributeNS(null, "width", rockets.widht);
         rocketLeft.setAttributeNS(null, "height", rockets.height);
-        rocketLeft.setAttributeNS(null, "fill", "grey");
+        rocketLeft.setAttributeNS(null, "fill", "red");
         
         svg.append(rocketLeft);
       }
@@ -83,7 +83,7 @@
         ballDraw.setAttributeNS(null, "cx", ball.posX);
         ballDraw.setAttributeNS(null, "cy", ball.posY);
         ballDraw.setAttributeNS(null, "r", ball.radius);
-        ballDraw.setAttributeNS(null, "fill", "yellow");
+        ballDraw.setAttributeNS(null, "fill", "white");
         
         svg.append(ballDraw);
       }
